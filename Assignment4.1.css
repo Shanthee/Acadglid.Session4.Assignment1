@@ -1,0 +1,23 @@
+.speech-bubble {
+  position: absolute; /*making it absolute is the trick*/
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 20px;
+  width: 100px;
+  height: 60px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 20px;
+
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  left: -40px; /* this is adjusted based on the padding of speech-bubble*/
+  border-right:20px solid blue; /* defining right border will create a left arrow*/
+  position: relative;
+}
+    	
